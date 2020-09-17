@@ -1,0 +1,106 @@
+/* Primary Color
+hex #e51b23
+Tagline Color
+hex #000000
+Complementary Color
+hex #1be5dd
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    margin: 50px auto;
+    transition: transform .5s, opacity .5s;
+}
+
+a:hover {
+    transform: scale(.95);
+    opacity: .8;
+}
+
+.logo-container {
+    width: 300px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.logo-initial-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-initial {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial {
+    color: #fff;
+    font-size: 90px;
+    text-align: center;
+}
+.initial-1 {
+    font-family: 'Lemonada', cursive;
+}
+.initial-2 {
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
+.initial-3 {
+    font-family: 'Unica One', cursive;
+}
+
+.logo-name-box {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo-name h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.font-1 {
+    font-family: 'Lemonada', cursive;
+}
+.font-2 {
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
+.font-3 {
+    font-family: 'Unica One', cursive;
+}
+
+.logo-name h2 span {
+    color: #e51b23;
+}
+
+/* 
+font-family: 'Lemonada', cursive;
+font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Unica One', cursive;
+*/
