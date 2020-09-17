@@ -60,13 +60,8 @@ a:hover {
     font-size: 90px;
     text-align: center;
 }
+
 .initial-1 {
-    font-family: 'Lemonada', cursive;
-}
-.initial-2 {
-    font-family: 'Libre Barcode 128 Text', cursive;
-}
-.initial-3 {
     font-family: 'Unica One', cursive;
 }
 
@@ -86,12 +81,6 @@ a:hover {
 }
 
 .font-1 {
-    font-family: 'Lemonada', cursive;
-}
-.font-2 {
-    font-family: 'Libre Barcode 128 Text', cursive;
-}
-.font-3 {
     font-family: 'Unica One', cursive;
 }
 
